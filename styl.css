@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Hedvig Letters Sans', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Nosifer', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Sora', sans-serif;
+}
+.container{
+    width:100vw;
+    height: 100vh;
+    background-image: url(img.jpg);
+    background-size:cover;
+}
+.nav{
+    width:100vw;
+    height:10vh;
+    display:flex;
+    /* position:relative; */
+}
+.logo{
+    width:30vw;
+    height:100%;
+    padding-left: 5rem;
+    /* position: absolute; */
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    /* background-color: #fff; */
+    padding-bottom:0.5rem;
+    font-size: 1.5rem;
+    color:#fffffff5;
+}
+.navbar{
+    width:50vw;
+    height:100%;
+    display:flex;
+    /* background-color: pink; */
+    padding-bottom:0.8rem;
+    padding-right: 1rem;
+    padding-left:1rem;
+    font-size:1..9rem;
+}
+.btn{
+    width:20vw;
+    height:100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+     padding-bottom:0.8rem ;
+    outline:none;
+    /* cursor:pointer; */
+}
+.n{
+    width:25%;
+    height:100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color:rgba(255, 255, 255, 0.692);
+}
+button{
+    width:40%;
+    height:50%;
+    border:solid 1px  #140551a5;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.middle{
+    padding-top:3rem;
+
+}
+.heading,.secondLine,.thirdLine{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.heading{
+    font-size:1.2rem ;
+    color:rgba(255, 255, 255, 0.927);
+}
+.secondLine,.thirdLine{
+color:#ffffff7e
+}
+a{
+    color:rgba(255, 255, 255, 0.664);
+    /* transition: all linear 0.1s ; */
+}
+a:hover{
+    color:rgba(255, 255, 255, 0.912);
+    text-decoration: underline;
+}
